@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+background-color:#0c070b;
+position: relative;
+}
+
+a{
+    transition: all 0.3s ease;
+}
+.navbar{
+    background-color: rgba(12, 7, 11,0.8);
+    backdrop-filter: blur(9px);
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.srch-field, .srch-field:active, .srch-field:focus{
+    outline: none;
+    border:1px transparent;
+    box-shadow: 0 0 1px transparent;
+}
+
+/* .banners{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+} */
+
+.hero {
+    background-image: url(images/ban22.jfif);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+  }
+
+.banner-text h1{
+    color: white;
+    font-size: 3.3em;
+    padding: 25px;
+    font-weight: bolder;
+}
+
+.banner-text h4{
+    /* color: rgb(146, 146, 146); */
+    color: pink;
+    backdrop-filter: blur(2px);
+}
+
+.butn, .butnn{
+    background-color: transparent;
+}
+.butnn{
+    color: white;
+    border: 0;
+    outline: none;
+    border:1px transparent;
+    box-shadow: 0 0 1px transparent;
+}
+
+.butnn:hover ,.butnn:active,.butnn:focus{
+    background-color: transparent;
+    border: 0;
+    color: palevioletred;
+    outline: none;
+    border:1px transparent;
+    box-shadow: 0 0 1px transparent;
+}
+
+.butn{
+    border: 1px solid palevioletred;
+    color: white;
+    border-radius: 0;
+    outline: none;
+    box-shadow: 0 0 1px transparent;
+}
+.backblut-btn{
+    backdrop-filter: blur(20px);
+}
+
+.butn:hover ,.butn:active,.butn:focus{
+    background-color: palevioletred;
+    outline: none;
+    border: 1px solid palevioletred;
+    box-shadow: 0 0 1px transparent;
+    color: white;
+}
+
+
+
+
+/* intro section content */
+
+.membership .card-text .text-muted{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.working-hours{
+    border-left: 1px solid gray;
+    padding-left: 25px;
+}
+.working-hours .card-text{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+/* intro section content */
+
+
+/* join-modal */
+
+.join-input{
+    border-radius: 0;
+    color:  rgba(12, 7, 11,0.8);
+    outline: none;
+    border: 1px solid rgba(12, 7, 11,0.8);
+    box-shadow: 0 0 0;
+}
+
+.join-input:focus{
+    border-radius: 0;
+    color: rgba(12, 7, 11,0.8);
+    outline: none;
+    border: 1px solid rgba(12, 7, 11,0.8);
+    box-shadow: 0 0 2px palevioletred;
+}
+
+.join-butn{
+    color: white;
+    background-color: rgba(12, 7, 11,0.8);
+    border-radius: 0px;
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 0;
+}
+
+.join-butn:hover, .join-butn:focus, .join-butn:active{
+    background-color: palevioletred;
+    color: white;
+    outline: none;
+    border: 0px;
+    box-shadow: 0 0 0;
+}
+
+.modal-content {
+    padding: 2rem 3rem;
+  }
+
+/* join-modal */
+
+
+
+
+
+
+
+.c-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+.card-title{
+    font-size: 2.5em;
+}
+.card-text{
+    font-size: 1.2em;
+}
+.card{
+    border-radius: 0;
+    margin: 0;
+}
+
+.card-d{
+    background-color: #0c070b;
+    color: white;
+}
+.section{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* custom sections styling */
+.intro{
+    background-color: #0c070b;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.class{
+    background-color: #0c070b;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.contact{
+    background-color: #0c070b;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.about, .schedule{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #fff;
+}
+
+
+/* custom sections styling */
+
+
+/* about */
+
+
+.about h2{
+    font-size: 3.3em;
+    color: #0c070b;
+    margin-bottom: 100px;
+}
+
+
+/* about */
+
+/* class */
+
+.class h6{
+    font-size: 3.3em;
+}
+
+
+.class h2{
+    font-size: 3.3em;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.class-card{
+    border: 1px solid gray;
+}
+
+.class-card:hover{
+    box-shadow: 0px 0px 10px palevioletred;
+    border: 1px solid gray;
+}
+
+/* class */
+
+
+/*SCHEDULE*/
+
+.schedule {
+background: white;
+}
+.schedule h2{
+    font-size: 3.3em;
+    color: #0c070b;
+}
+
+.schedule-table {
+    color: #0c070b;
+    background-color: palevioletred;
+display: table;
+border: 0;
+text-align: center;
+}
+
+.schedule-table strong,
+.schedule-table span {
+display: block;
+text-align: center;
+}
+
+.schedule-table strong {
+color: #0c070b;
+}
+
+.schedule-table span {
+color: #0c070b;
+}
+
+.schedule-table span,
+.schedule-table small {
+font-size: var(--menu-font-size);
+text-transform: uppercase;
+}
+
+.schedule-table small {
+position: relative;
+top: 10px;
+}
+
+.table .thead-light th,
+.schedule-table tr td:first-child {
+background: #0c070b;
+border: 1px solid white;
+color: white;
+}
+
+.schedule-table .thead-light th {
+border-bottom: 0;
+text-transform: uppercase;
+}
+
+.table-bordered td, 
+.table-bordered th {
+border: 1px solid white;
+}
+
+.table-bordered td {
+padding-bottom: 22px;
+}
+
+.table td, .table th {
+padding: 1rem;
+}
+
+/*SCHEDULE*/
+
+
+
+.container-footer{
+    background-color:#0c070b;
+    color: white;
+}
