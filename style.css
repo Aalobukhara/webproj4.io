@@ -335,3 +335,43 @@ padding: 1rem;
     background-color:#0c070b;
     color: white;
 }
+
+
+/* responsive  */
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .working-hours{
+        border-left: none;
+        padding-left: 25px;
+    }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+    .working-hours{
+        border-left: none;
+        padding-left: 25px;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    .working-hours{
+        border-left: none;
+        padding-left: 25px;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    .working-hours{
+        border-left: none;
+        padding-left: 25px;
+    }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+
+}
