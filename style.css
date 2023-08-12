@@ -349,10 +349,7 @@ padding: 1rem;
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
-    .working-hours{
-        border-left: none;
-        padding-left: 25px;
-    }
+/*  */
 }
 
 /* Medium screen devices (768px and above) */
